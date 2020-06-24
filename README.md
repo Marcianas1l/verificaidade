@@ -10,7 +10,7 @@
 
 ![Minha página](imagens/verificador.gif)
 
-Acesse: https://marcianas1l.github.io/horadodia/
+Acesse: https://marcianas1l.github.io/verificaidade/
 
 # Siga-me
 
