@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificador de Idade</title>
+    <link rel="stylesheet" href="estilo/estilo.css">
+    <link href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <h1>Verificador de Idade</h1>
+    </header>
+    <section>
+        <div id="texto">
+            <p>Ano de Nascimento: <input type="number" name="nascimento" id="nascimento"></p>
+            <p>Sexo: <input type="radio" value="Masculino" id="masculino" name="selecao">
+                <label for="masculino">Masculino</label>
+                <input type="radio" value="Feminino" id="feminino" name="selecao">
+                <label for="feminino">Feminino</label>
+            </p>
+            <p><input type="submit" value="Verificar" onclick="verificar()">
+                <input type="button" value="Reiniciar" onclick="reiniciar()">
+            </p>
+        </div>
+        <div id="imagem">
+            <p id="msg">Mensagem...</p>
+            <img src="../ex02/imagens/crianca-homem.jpg" alt="foto" id="foto">
+        </div>
+    </section>
+
+    <script src="estilo/script.js"></script>
+</body>
+
+</html>

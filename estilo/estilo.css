@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+input[type="button"] {
+    font-size: 16px;
+    color: red;
+    padding: 5px;
+    border: 1px solid #fff;
+    transition: all .5s;
+}
+input[type="button"]:hover {
+    color: #fff;
+    background: rgb(112, 14, 14);
+}
+input[type="submit"] {
+    font-size: 16px;
+    color: rgb(5, 92, 2);
+    padding: 5px;
+    border: 1px solid green;
+    transition: all .5s;
+}
+input[type="submit"]:hover {
+    border: 1px solid #fff;
+    background: #002e15;
+    color: #fff;
+}
+
+input[type="number"] {
+    font-size: 16px;
+    border: 1px solid #fff;
+}
+
+header h1 {
+    text-align: center;
+    padding: 20px;
+    font-family: 'MuseoModerno', cursive;
+}
+
+section {
+    font-family: 'Bree Serif', serif;
+    font-size: 18px;
+    background: #37B44E;
+    color: #fff;
+    width: 500px;
+    height: 350px;
+    margin: 0 auto;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+section #texto {
+    padding: 10px;
+}
+section #texto p {
+    padding: 5px;
+}
+section #foto {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+}
+section #imagem {
+    margin: 2px auto;
+    padding: 5px;
+    text-align: center
+}
+section #imagem #foto {
+    margin-top: 20px;
+}
